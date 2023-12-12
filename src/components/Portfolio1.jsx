@@ -9,12 +9,12 @@ const Portfolio1 = () => {
   const projects=[
     { name:"CodeHub",src:codehub,demo:"https://code-hub-opal.vercel.app/",code:"https://github.com/Vidhanjain143/CodeHub"},
     { name:"StudyMate",src:studymate ,demo:"",code:"https://github.com/Vidhanjain143/StudyMate"},
-    { name:"VoteNation",src:votenation ,demo:"https://onedrive.live.com/?authkey=%21AC024WKBM9w2Muw&id=187CD22FEBF6DE3E%2126838&cid=187CD22FEBF6DE3E",code:'https://github.com/Vidhanjain143/myapp'},
+    { name:"VoteNation",src:votenation ,demo:"https://github.com/Vidhanjain143/myapp",code:'https://github.com/Vidhanjain143/myapp'},
     { name:"Analytica",src:analytica ,demo:"https://youtube.com/playlist?list=PLF-alETo8eMVw8sS0hBFn756hYkBVVOcZ&si=vzjgUqvIr6IQhww-",code:"https://github.com/Team-SIH-23/PGRKAM-Web"},
     { name:"Amazon Clone",src:amazon ,demo:"https://amazon-clone-r7kt.vercel.app/",code:"https://github.com/Vidhanjain143/Amazon-clone"},
   ]
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white pt-10 md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className="pb-8">
            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
