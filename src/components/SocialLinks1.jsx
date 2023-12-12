@@ -15,7 +15,7 @@ const SocialLinks1 = () => {
   return (
     <div className='flex justify-center items-center px-4 py-0  bg-gray-800 gap-2 lg:hidden '>
         {socialLinks.map(({name,icon,href,download})=>(
-            <div key={name} className={'flex justify-between items-center w-35 mt-4 mb-4 h-20 px-4 bg-gray-500 hover:ml-0 rounded-lg hover:rounded-xl'}>
+            <div key={name} className={'flex justify-between items-center w-35 mt-4 mb-4 h-20 px-4 bg-gray-500 hover:ml-0 rounded-lg ml-1 mr-1 hover:rounded-xl'}>
             <a href={href} target="_blank" rel="noreferrer" className='flex flex-col justify-between items-center w-full text-white font-semibold' download={download}><>{icon}</>{name}</a>
         </div>
         ))}
