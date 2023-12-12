@@ -13,7 +13,7 @@ const SocialLinks = () => {
         {name:"Resume",icon:<BsFillPersonLinesFill size={30}/>,href:"/resume.pdf",style:'rounded-br-md',download:true},
     ]
   return (
-    <div className='hidden sm:flex flex-col top-[35%] left-0 fixed'>
+    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
        <ul>
         {socialLinks.map(({name,icon,href,style,download})=>(
             <li key={name} className={'flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-0 hover:rounded-tr-md hover:rounded-br-md '+style}>
