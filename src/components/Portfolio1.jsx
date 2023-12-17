@@ -14,13 +14,13 @@ const Portfolio1 = () => {
     { name:"Amazon Clone",src:amazon ,demo:"https://amazon-clone-r7kt.vercel.app/",code:"https://github.com/Vidhanjain143/Amazon-clone"},
   ]
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white pt-10 md:h-screen'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-screen text-white pt-10 h-fit'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className="pb-8">
            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
            <p className='py-6 '>Check out some of my work right here</p>
         </div>
-        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 mb-1'>
           {projects.map(({name,src,demo,code})=>(
             <div key={name} className='shadow-md shadow-gray-500 rounded-lg hover:scale-105 duration-200'>
               <p className='font-bold text-3xl flex justify-around items-center p-2 '>{name}</p>

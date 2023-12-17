@@ -22,7 +22,7 @@ function App() {
       <Experience/>
       <CodingProfiles/>
       <Contact/>
-    </>
+      </>
   )
 }
 
