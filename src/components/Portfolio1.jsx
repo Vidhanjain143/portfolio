@@ -4,9 +4,11 @@ import studymate from "../assets/portfolio/studymate.png"
 import votenation from "../assets/portfolio/votenation.jpeg"
 import amazon from "../assets/portfolio/amazon.png"
 import analytica from "../assets/portfolio/analytica.jpeg"
+import codewars from "../assets/portfolio/codewars.png"
 
 const Portfolio1 = () => {
   const projects=[
+    { name:"CodeWars", src:codewars, demo:"https://code-wars-1.vercel.app",code:"https://github.com/Vidhanjain143/CodeWars"},
     { name:"CodeHub",src:codehub,demo:"https://code-hub-opal.vercel.app/",code:"https://github.com/Vidhanjain143/CodeHub"},
     { name:"StudyMate",src:studymate ,demo:"",code:"https://github.com/Vidhanjain143/StudyMate"},
     { name:"VoteNation",src:votenation ,demo:"https://github.com/Vidhanjain143/myapp",code:'https://github.com/Vidhanjain143/myapp'},
