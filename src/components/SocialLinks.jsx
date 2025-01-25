@@ -10,7 +10,7 @@ const SocialLinks = () => {
         {name:"Github",icon:<FaGithub size={30}/>,href:"https://github.com/Vidhanjain143",style:''},
         {name:"X",icon:<FaSquareXTwitter size={30}/>,href:"https://twitter.com/VidhanJain18",style:''},
         {name:"Mail",icon:<HiOutlineMail size={30}/>,href:"https://mail.google.com/mail/?view=cm&fs=1&to=vidhanjain143@gmail.com&su=Subject%20of%20the%20email&body=Body%20of%20the%20email",style:''},
-        {name:"Resume",icon:<BsFillPersonLinesFill size={30}/>,href:"/resume.pdf",style:'rounded-br-md',download:true},
+        {name:"Resume",icon:<BsFillPersonLinesFill size={30}/>,href:"https://drive.google.com/file/d/16z9Q1XGI0-pk9FQeVJB61naWiO6jY3KH/view?usp=sharing",style:'rounded-br-md',download:true},
     ]
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'>
