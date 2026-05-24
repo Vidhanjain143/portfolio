@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Contact from './components/Contact'
 import CodingProfiles from './components/CodingProfiles'
 import SocialLinks1 from './components/SocialLinks1'
+import RealExperience from './components/RealExperience'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <SocialLinks/>
       <SocialLinks1/>
       <About/>
+      <RealExperience/>
       <Portfolio1/>
       <Experience/>
       <CodingProfiles/>

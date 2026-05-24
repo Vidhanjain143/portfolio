@@ -33,7 +33,7 @@ const SocialLinks = () => {
     {
       name: "Resume",
       icon: <BsFillPersonLinesFill size={30} />,
-      href: "https://drive.google.com/file/d/1tD09U0AROs3L6bseu77dAPz9sJhOFTE3/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/14co6R24DKNz_cT78gh55osraDp_p1Tm7/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
